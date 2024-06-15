@@ -1,0 +1,15 @@
+{
+  "name": "englishapp",
+  "version": "1.0.0",
+  "description": "this is a server of studying english app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "STUDYING-ENGLISH-APP"
+  },
+  "author": "DinhNguyen",
+  "license": "ISC"
+}
