@@ -26,16 +26,16 @@
             <div class="container-fluid p-3" id="content">
                 <div class="container p-3" id="form">
                     <h3 class="text-center py-0">ĐĂNG KÝ TÀI KHOẢN</h3>
-                    <form action="#" id="register" class="py-3">
+                    <form action="/register" method="post" id="register" class="py-3">
                         <div class="mb-3">
-                            <label for="name">Nhập tên</label>
+                            <label for="firstName">Nhập tên</label>
                             <div class="row">
                                 <div class="col-6">
                                     <input
                                     type="text"
                                     class="form-control"
-                                    name="name"
-                                    id="name"
+                                    name="firstName"
+                                    id="firstName"
                                     aria-describedby="helpId"
                                     placeholder="First name"
                                     required
@@ -45,8 +45,8 @@
                                     <input
                                     type="text"
                                     class="form-control"
-                                    name="name"
-                                    id="name"
+                                    name="lastName"
+                                    id="lastName"
                                     aria-describedby="helpId"
                                     placeholder="Last name"
                                     required
@@ -86,12 +86,12 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="phone-number">Nhập số điện thoại</label>
+                            <label for="phoneNumber">Nhập số điện thoại</label>
                             <input
                                 type="text"
                                 class="form-control"
-                                name="phone-number"
-                                id="phone-number"
+                                name="phoneNumber"
+                                id="phoneNumber"
                                 aria-describedby="helpId"
                                 placeholder="Nhập số điện thoại"
                                 required
@@ -99,12 +99,12 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="login-name">Nhập tên đăng nhập</label>
+                            <label for="userName">Nhập tên đăng nhập</label>
                             <input
                                 type="text"
                                 class="form-control"
-                                name="login-name"
-                                id="login-name"
+                                name="userName"
+                                id="userName"
                                 aria-describedby="helpId"
                                 placeholder="Nhập tên đăng nhập"
                                 required
@@ -112,12 +112,12 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="password">Nhập mật khẩu</label>
+                            <label for="passWord">Nhập mật khẩu</label>
                             <input
                                 type="password"
                                 class="form-control"
-                                name="password"
-                                id="password"
+                                name="passWord"
+                                id="passWord"
                                 aria-describedby="helpId"
                                 placeholder="Nhập mật khẩu"
                                 required
@@ -125,12 +125,12 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="confirm-password">Xác nhận mật khẩu</label>
+                            <label for="confirmPassword">Xác nhận mật khẩu</label>
                             <input
                                 type="password"
                                 class="form-control"
-                                name="confirm-password"
-                                id="confirm-password"
+                                name="confirmPassword"
+                                id="confirmPassword"
                                 aria-describedby="helpId"
                                 placeholder="Nhập mật khẩu"
                                 required

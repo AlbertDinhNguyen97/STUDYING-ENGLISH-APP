@@ -11,5 +11,8 @@
     "url": "STUDYING-ENGLISH-APP"
   },
   "author": "DinhNguyen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
