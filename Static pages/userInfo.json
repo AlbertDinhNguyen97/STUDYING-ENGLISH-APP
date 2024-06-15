@@ -1,46 +1,13 @@
 [
     {
-        "userName": "web1",
-        "password": "123",
-        "phoneNumber": "0326888595",
-        "firstName": "Nguyễn Đình",
-        "lastName": "Nguyên",
-        "dateOfBirth": "1",
-        "monthOfBirth": "1",
-        "yearOfBirth": "2024",
-        "gender": "male"
-    },
-    {
-        "userName": "web1",
-        "password": "123",
-        "phoneNumber": "0326888595",
-        "firstName": "Nguyễn Đình",
-        "lastName": "Nguyên",
-        "dateOfBirth": "1",
-        "monthOfBirth": "1",
-        "yearOfBirth": "2024",
-        "gender": "male"
-    },
-    {
-        "userName": "ADA",
-        "password": "123",
-        "phoneNumber": "222",
-        "firstName": "Nguyễn Đình",
-        "lastName": "Nguyên",
-        "dateOfBirth": "1",
-        "monthOfBirth": "1",
-        "yearOfBirth": "2024",
-        "gender": "male"
-    },
-    {
         "userName": "nguyen",
         "password": "123",
         "phoneNumber": "0326888595",
         "firstName": "Nguyễn Đình",
         "lastName": "Nguyên",
-        "dateOfBirth": "6",
-        "monthOfBirth": "8",
-        "yearOfBirth": "1997",
+        "dateOfBirth": "1",
+        "monthOfBirth": "1",
+        "yearOfBirth": "2024",
         "gender": "male"
     }
 ]
