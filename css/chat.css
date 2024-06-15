@@ -1,12 +1,31 @@
 :root {
     --yellow: #dcca06;
-    --blue: #111762;
+    --blue: #3689CD;
+    --blue1: #111762;
     /* #00CCCC; */
 }
-#content {
 
+/* ---------------------------- Home page --------------------------------*/
+#home-head-content {
+  background-color: var(--blue)!important;
 }
 
+#home-head-content .navbar {
+  background-color: var(--blue)!important;
+}
+
+#home-nav * {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--blue)!important;
+}
+
+#home-main-content {
+  height: 100vh;
+}
+
+
+/* ---------------------------- Chat page --------------------------------*/
 #content > div {
     height: 100%;
 }
