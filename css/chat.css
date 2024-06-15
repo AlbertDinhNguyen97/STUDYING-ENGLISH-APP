@@ -9,7 +9,7 @@
 #home-head-content {
   background-color: var(--blue)!important;
 }
-
+ 
 #home-head-content .navbar {
   background-color: var(--blue)!important;
 }
@@ -20,8 +20,23 @@
   background-color: var(--blue)!important;
 }
 
-#home-main-content {
-  height: 100vh;
+#title {
+  color: var(--yellow);
+}
+
+#banner {
+  min-height: 500px;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: contain;
+}
+
+#tags img{
+  height: 350px;
+  width: 100%;
+  object-fit: fill;
 }
 
 
